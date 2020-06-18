@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Real Sam I Am</title>
+    <link>https://samedwardes.com/tags/</link>
+    <description>Recent content in Tags on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>environment</title>
+      <link>https://samedwardes.com/tags/environment/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sports</title>
+      <link>https://samedwardes.com/tags/sports/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command-line</title>
+      <link>https://samedwardes.com/tags/command-line/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter</title>
+      <link>https://samedwardes.com/tags/jupyter/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dashboards</title>
+      <link>https://samedwardes.com/tags/dashboards/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/dashboards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://samedwardes.com/tags/python/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>viz</title>
+      <link>https://samedwardes.com/tags/viz/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/viz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>camping</title>
+      <link>https://samedwardes.com/tags/camping/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/camping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cycling</title>
+      <link>https://samedwardes.com/tags/cycling/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/cycling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>surfing</title>
+      <link>https://samedwardes.com/tags/surfing/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/surfing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>running</title>
+      <link>https://samedwardes.com/tags/running/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/tags/running/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>running on Real Sam I Am</title>
+    <link>https://samedwardes.com/tags/running/</link>
+    <description>Recent content in running on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/tags/running/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running Across PEI</title>
+      <link>https://samedwardes.com/post/2012-09-09-running-pei/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2012-09-09-running-pei/</guid>
+      <description>The summer of 2013 I and my friends Cory Babiak, Taylor Jenkins, and Jose Pauig ran across PEI.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cycling on Real Sam I Am</title>
+    <link>https://samedwardes.com/tags/cycling/</link>
+    <description>Recent content in cycling on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/tags/cycling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cycle Touring the BC Coast</title>
+      <link>https://samedwardes.com/post/2019-08-31-cycling-bc-coast/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-08-31-cycling-bc-coast/</guid>
+      <description>With a few spare days between finishing work and starting a masters program at UBC I was keen to experience some adventure before going back to school.</description>
+    </item>
+    
+    <item>
+      <title>Cycling Portugal</title>
+      <link>https://samedwardes.com/post/2018-01-01-cycling-portugal/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2018-01-01-cycling-portugal/</guid>
+      <description>While studying abroad in Istanbul I took my semester break to travel to Portugal and cycle from Lisbon to Faro.</description>
+    </item>
+    
+    <item>
+      <title>Cycling from Kingston to Toronto</title>
+      <link>https://samedwardes.com/post/2015-06-27-cycling-kingston-to/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2015-06-27-cycling-kingston-to/</guid>
+      <description>After 4 years of school at Queen&amp;rsquo;s University I was at last done.</description>
+    </item>
+    
+    <item>
+      <title>Cycling Across Canada</title>
+      <link>https://samedwardes.com/post/2019-08-22-cycling-canada-main/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-08-22-cycling-canada-main/</guid>
+      <description>During my first year of university my friend Cory and I began to plan a cycling trip across Canada.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>surfing on Real Sam I Am</title>
+    <link>https://samedwardes.com/tags/surfing/</link>
+    <description>Recent content in surfing on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/tags/surfing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Best Great Lake Surfing Videos</title>
+      <link>https://samedwardes.com/post/2019-07-17-best-great-lake-surfing-vids/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-07-17-best-great-lake-surfing-vids/</guid>
+      <description>Here are a handful of videos that inspired me to get out there, buy a surfboard and surf the Great Lakes.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Real Sam I Am</title>
+    <link>https://samedwardes.com/post/</link>
+    <description>Recent content in Posts on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Complete Data Science Setup (macOS)</title>
+      <link>https://samedwardes.com/post/2020-06-08-datascience-setup/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2020-06-08-datascience-setup/</guid>
+      <description>One of the funnest (and most frustrating) parts of data science is the vast array of tools available to us.</description>
+    </item>
+    
+    <item>
+      <title>Is UFC Judging Fair?</title>
+      <link>https://samedwardes.com/post/2020-05-31-is_the_ufc_fair/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2020-05-31-is_the_ufc_fair/</guid>
+      <description>When a UFC match ends with a knock-out or submission there is never any doubt who the better fighter was.</description>
+    </item>
+    
+    <item>
+      <title>How to Open GitHub.com Repo from the Command Line</title>
+      <link>https://samedwardes.com/post/2020-02-08-how-to-open-github-from-cl/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2020-02-08-how-to-open-github-from-cl/</guid>
+      <description>During my Masters of Data Science I was often working on many GitHub repos at the same time.</description>
+    </item>
+    
+    <item>
+      <title>How to Open Jupyter Notebooks with a Double Click (Mac OS)</title>
+      <link>https://samedwardes.com/post/2020-01-31-open-ipynb-with-double-click/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2020-01-31-open-ipynb-with-double-click/</guid>
+      <description>Background Jupyter Notebooks are an awesome tool. The standard way to open a Jupyter Notebook is from the command line.</description>
+    </item>
+    
+    <item>
+      <title>How to Deploy a Containerized Python Dash App to Heroku</title>
+      <link>https://samedwardes.com/post/2019-11-15-dash-heroku-cookie-cutter/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-11-15-dash-heroku-cookie-cutter/</guid>
+      <description>I love using Plotly to build interactive visualizations. The syntax is very similar across R and Python, and plots looks great.</description>
+    </item>
+    
+    <item>
+      <title>Cycle Touring the BC Coast</title>
+      <link>https://samedwardes.com/post/2019-08-31-cycling-bc-coast/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-08-31-cycling-bc-coast/</guid>
+      <description>With a few spare days between finishing work and starting a masters program at UBC I was keen to experience some adventure before going back to school.</description>
+    </item>
+    
+    <item>
+      <title>The Best Great Lake Surfing Videos</title>
+      <link>https://samedwardes.com/post/2019-07-17-best-great-lake-surfing-vids/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-07-17-best-great-lake-surfing-vids/</guid>
+      <description>Here are a handful of videos that inspired me to get out there, buy a surfboard and surf the Great Lakes.</description>
+    </item>
+    
+    <item>
+      <title>Cycling Portugal</title>
+      <link>https://samedwardes.com/post/2018-01-01-cycling-portugal/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2018-01-01-cycling-portugal/</guid>
+      <description>While studying abroad in Istanbul I took my semester break to travel to Portugal and cycle from Lisbon to Faro.</description>
+    </item>
+    
+    <item>
+      <title>Cycling from Kingston to Toronto</title>
+      <link>https://samedwardes.com/post/2015-06-27-cycling-kingston-to/</link>
+      <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2015-06-27-cycling-kingston-to/</guid>
+      <description>After 4 years of school at Queen&amp;rsquo;s University I was at last done.</description>
+    </item>
+    
+    <item>
+      <title>Running Across PEI</title>
+      <link>https://samedwardes.com/post/2012-09-09-running-pei/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2012-09-09-running-pei/</guid>
+      <description>The summer of 2013 I and my friends Cory Babiak, Taylor Jenkins, and Jose Pauig ran across PEI.</description>
+    </item>
+    
+    <item>
+      <title>Cycling Across Canada</title>
+      <link>https://samedwardes.com/post/2019-08-22-cycling-canada-main/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2019-08-22-cycling-canada-main/</guid>
+      <description>During my first year of university my friend Cory and I began to plan a cycling trip across Canada.</description>
+    </item>
+    
+  </channel>
+</rss>

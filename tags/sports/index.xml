@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sports on Real Sam I Am</title>
+    <link>https://samedwardes.com/tags/sports/</link>
+    <description>Recent content in sports on Real Sam I Am</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://samedwardes.com/tags/sports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Is UFC Judging Fair?</title>
+      <link>https://samedwardes.com/post/2020-05-31-is_the_ufc_fair/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://samedwardes.com/post/2020-05-31-is_the_ufc_fair/</guid>
+      <description>When a UFC match ends with a knock-out or submission there is never any doubt who the better fighter was.</description>
+    </item>
+    
+  </channel>
+</rss>

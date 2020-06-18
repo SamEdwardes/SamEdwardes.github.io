@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Sam Edwardes | How to Deploy a Containerized Python Dash App to Heroku </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Real Sam I Am - a blog by Sam Edwardes">
+    
+    <link rel="stylesheet" href="https://samedwardes.com/css/style.min.01863a7e7a4d950e0822d02195a7149fe3d4e0a9f6248b1732f5103826916e44.css" integrity="sha256-AYY6fnpNlQ4IItAhlacUn&#43;PU4Kn2JIsXMvUQOCaRbkQ=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://samedwardes.com/css/table.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://samedwardes.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://samedwardes.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://samedwardes.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://samedwardes.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://samedwardes.com/post/2019-11-15-dash-heroku-cookie-cutter/">
+    
+    
+    <script type="text/javascript" src="https://samedwardes.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://samedwardes.com/img/favicon.ico" alt="profile picture">
+        <h3 title=""><a href="/"></a></h3>
+        <div class="description">
+          <p>Real Sam I Am - a blog by Sam Edwardes</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/SamEdwardes" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/TheReaLSamlam" rel="me" aria-label="Twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/samedwardes/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.youtube.com/channel/UCkXD_pR2bYGOyf8Eh6T_BNw" rel="me" aria-label="YouTube">
+          <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:edwardes.s@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Sam Edwardes 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+        
+        <li><a  href="/data-science/" title="">Data Science</a></li>
+        
+        
+        <li><a  href="/categories/outdoors/" title="">Outdoors</a></li>
+        
+        
+        <li><a  href="/tags/" title="">Tags</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>How to Deploy a Containerized Python Dash App to Heroku
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Fri, Nov 15, 2019</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">3-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>I love using Plotly to build interactive visualizations. The syntax is very similar across R and Python, and plots looks great.</p>
+<p>One challenge I have found is sharing these dashboards in the wild. This blog posts walks you through how to build a Plotly Dash App in a docker container that you can deploy to Heroku.</p>
+<p>You can see the app live here:</p>
+<p><a href="https://dash-heroku-cookie-cutter.herokuapp.com/">https://dash-heroku-cookie-cutter.herokuapp.com/</a></p>
+<p><img src="https://imgur.com/uNeuIfZ.png" alt="img"></p>
+<p>GitHub repo here:</p>
+<p><a href="https://github.com/SamEdwardes/dash-heroku-cookie-cutter">https://github.com/SamEdwardes/dash-heroku-cookie-cutter</a></p>
+<p><strong>Why did I create this project?</strong></p>
+<ul>
+<li>There are many tutorials on how to use Dash, Flask, Heroku, and Containers. But, I could not find any that included all of these elements.</li>
+<li>I have found it tricky to get Pandas working on some virtual environments and/or containers</li>
+<li>I will use this as a basic starting point for future dash/heroku projects</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p><em>Note: many ideas were taken from <a href="https://medium.com/@ksashok/containerise-your-python-flask-using-docker-and-deploy-it-onto-heroku-a0b48d025e43">https://medium.com/@ksashok/</a> for this README.</em></p>
+<h3 id="step-1-setting-up-files-locally">Step 1: setting up files locally</h3>
+<p>Create a new directory in your computer and create the following file structure:</p>
+<pre><code>.
+├── Dockerfile
+├── README.md
+├── app.py
+├── data
+│   └── gapminder.csv
+└── requirements.txt
+</code></pre><h3 id="step-2-apppy">Step 2: <code>app.py</code></h3>
+<p>Create your dash app. See <a href="app.py">app.py</a> for complete details. A few important things to note:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">port: int(os<span style="color:#f92672">.</span>environ<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;PORT&#34;</span>, <span style="color:#ae81ff">5000</span>))
+</code></pre></div><p>You must use the above code for Heroku to find the correct port. If not, you may get:</p>
+<pre><code>Web process failed to bind $PORT within 60 seconds of launch
+</code></pre><p>Thanks to <a href="https://medium.com/@ksashok/containerise-your-python-flask-using-docker-and-deploy-it-onto-heroku-a0b48d025e43">Ashok&rsquo;s blog post</a> for this tip.</p>
+<p>At the end of your <code>app.py</code> file you should have the following code:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+    app<span style="color:#f92672">.</span>run_server(debug<span style="color:#f92672">=</span>False,
+                   host<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0.0.0.0&#34;</span>,
+                   port<span style="color:#f92672">=</span>port)
+</code></pre></div><p>The key part of the above code is to have <code>port=port</code>.</p>
+<h3 id="step-3-dockerfile-and-requirementstxt">Step 3: <code>Dockerfile</code> and <code>Requirements.txt</code></h3>
+<p>I chose to use a docker image (<a href="https://hub.docker.com/r/amancevice/pandas">amancevice/pandas</a>) that started with Pandas, and then add in the dash requirements though the <code>Dockerfile</code>.</p>
+<p><code>Dockerfile</code></p>
+<ul>
+<li>Calling <code>CMD [&quot;python&quot;, &quot;app.py&quot;]</code> at the end of the file runs the app.</li>
+</ul>
+<p><code>Requirements.txt</code></p>
+<ul>
+<li>At this stage I have not yet tagged the libraries with specific versions. It seems to be working without the tags fow now.</li>
+</ul>
+<h3 id="step-4-building-the-docker-image">Step 4: Building the docker image</h3>
+<p>In the terminal entering the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker image build -t dash-heroku:latest .
+</code></pre></div><p>Next you can validate if the image is working by running the image:</p>
+<pre><code>docker container run -d -p 5000:5000 dash-heroku
+</code></pre><p>To see if your app is running open <a href="http://localhost:5000/">http://localhost:5000/</a> (you can click on this link and it should take you to your app).</p>
+<p>While developing my app I found it helpful to use VS code with the <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker">Docker extension</a>. It lets you develop from within the container so you can update your code and test in the container with less fussing around on the command line.</p>
+<h3 id="step-5-deploying-to-heroku">Step 5: Deploying to Heroku</h3>
+<p>To deploy to Heroku you must have the <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku CLI</a> installed. Once it is installed you can do the following in the command line.</p>
+<p>Log into Heroku:</p>
+<pre><code>heroku container:login
+</code></pre><p>Create a new app on Heroku, where it says <code>dash-heroku-cookie-cutter</code> choose any name you like:</p>
+<pre><code>heroku create dash-heroku-cookie-cutter
+</code></pre><p>Create the container in Heroku:</p>
+<pre><code>heroku container:push web --app dash-heroku-cookie-cutter
+</code></pre><p>Then release the app:</p>
+<pre><code>heroku container:release web --app dash-heroku-cookie-cutter
+</code></pre><p>You should now be able to visit your app and see it in action. You can visit mine here:</p>
+<p><a href="https://dash-heroku-cookie-cutter.herokuapp.com/">https://dash-heroku-cookie-cutter.herokuapp.com/</a></p>
+<h2 id="using-containers-vs-virtual-environments">Using Containers vs. Virtual Environments</h2>
+<p>There are two ways I have deployed apps to Heroku:</p>
+<ul>
+<li>Using conda virtual environments (e.g. <a href="https://github.com/SamEdwardes/sentiment-cdn-election">Canadian election sentiment analysis</a>)</li>
+<li>Using containers (e.g. this project)</li>
+</ul>
+<p>Overall I would recommend using the container process. I found even with using virtual environments there were many times were the app would run locally, but then would not run when I push to Heroku. Additionally, as my virtual environment grew in size Heroku began rejecting it because it was over 500 MB. With containers I don&rsquo;t believe this limit exists.</p>
+<h2 id="helpful-links">Helpful links:</h2>
+<ul>
+<li><a href="https://medium.com/@ksashok/containerise-your-python-flask-using-docker-and-deploy-it-onto-heroku-a0b48d025e43">Containerize your Python Flask using Docker and deploy it onto Heroku</a></li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/data-science/">data-science</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/viz/">viz</a><a class="tag" href="/tags/python/">python</a><a class="tag" href="/tags/dashboards/">dashboards</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://samedwardes.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://samedwardes.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://samedwardes.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

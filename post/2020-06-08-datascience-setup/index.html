@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Sam Edwardes | The Complete Data Science Setup (macOS) </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Real Sam I Am - a blog by Sam Edwardes">
+    
+    <link rel="stylesheet" href="https://samedwardes.com/css/style.min.01863a7e7a4d950e0822d02195a7149fe3d4e0a9f6248b1732f5103826916e44.css" integrity="sha256-AYY6fnpNlQ4IItAhlacUn&#43;PU4Kn2JIsXMvUQOCaRbkQ=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://samedwardes.com/css/table.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://samedwardes.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://samedwardes.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://samedwardes.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://samedwardes.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://samedwardes.com/post/2020-06-08-datascience-setup/">
+    
+    
+    <script type="text/javascript" src="https://samedwardes.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://samedwardes.com/img/favicon.ico" alt="profile picture">
+        <h3 title=""><a href="/"></a></h3>
+        <div class="description">
+          <p>Real Sam I Am - a blog by Sam Edwardes</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/SamEdwardes" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/TheReaLSamlam" rel="me" aria-label="Twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/samedwardes/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.youtube.com/channel/UCkXD_pR2bYGOyf8Eh6T_BNw" rel="me" aria-label="YouTube">
+          <i class="fa fa-2x fa-youtube" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:edwardes.s@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Sam Edwardes 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+        
+        <li><a  href="/data-science/" title="">Data Science</a></li>
+        
+        
+        <li><a  href="/categories/outdoors/" title="">Outdoors</a></li>
+        
+        
+        <li><a  href="/tags/" title="">Tags</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>The Complete Data Science Setup (macOS)
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Mon, Jun 8, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">4-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>One of the funnest (and most frustrating) parts of data science is the vast array of tools available to us. It can be overwhelming where to start. Every now and then I like to completely wipe my computer clean, and then reinstall everything from scratch. This helps clean up my computer, and make sure everything is running smoothly.</p>
+<p>This is a living document that captures my most up to date set up. My set up is inspired by the University of British Columbia Data Science Program which provides helpful setup guides for three operating systems (<a href="https://ubc-mds.github.io/resources_pages/install_ds_stack_mac/">macOS</a>, <a href="https://ubc-mds.github.io/resources_pages/install_ds_stack_windows/">Windows</a>, and <a href="https://ubc-mds.github.io/resources_pages/install_ds_stack_ubuntu/">Ubuntu</a>).</p>
+<p>My guide currently covers the following areas.</p>
+<ul>
+<li><a href="#python">Python</a></li>
+<li><a href="#homebrew">Homebrew</a></li>
+<li><a href="#terminal-and-zsh">Terminal and ZSH</a></li>
+<li><a href="#r">R</a></li>
+<li><a href="#vs-code">VS Code</a></li>
+</ul>
+<h2 id="python">Python</h2>
+<p>I choose to use the python distribution <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a> from <a href="https://www.anaconda.com/">Anaconda</a>. I use miniconda as opposed to Anaconda because it is a stripped down version of Anaconda comes with a lot of software that I do not play to use such as <a href="https://www.spyder-ide.org/">Spyder</a> and <a href="https://orange.biolab.si/">Orange</a>.</p>
+<p>After I have miniconda installed I then work on setting up my python environment. I like to leave the root environment as is, and create a new environment call <code>ds_base</code> (data science base). I then load in my favourite data science libraries. Note that I never use <code>pip install</code> in the <code>ds_base</code>. If there is a package that I can not install through conda I will clone <code>ds_base</code> and then install the desired package. I do this to avoid breaking the installation of <code>ds_base</code>. <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html?highlight=pip#using-pip-in-an-environment">Conda recommends</a>:</p>
+<ul>
+<li>Use <code>pip</code> only after <code>conda</code>.</li>
+<li>Care should be taken to avoid running <code>pip</code> in the root environment.</li>
+</ul>
+<p><strong>Steps to setup python:</strong></p>
+<ol>
+<li>Follow the <a href="https://docs.conda.io/en/latest/miniconda.html">official instructions</a> to install miniconda.</li>
+<li>Create a new conda environment. You can either add packages as you wish, or get started by basing your data science environment off of my own. Run one of the following commands in your shell.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># option 1: start from scratch</span> 
+conda create -name ds_base
+
+<span style="color:#75715e"># option 2: start with my suggested packages</span>
+<span style="color:#75715e"># download my environment_ds_base.yml file from github</span>
+curl -o environment_ds_base.yml https://gist.githubusercontent.com/SamEdwardes/ae9fd4582d5fe213c5e2c43b68a78e12/raw/7d8c163a8d0da96602133d739d92c67337d9223a/environment_ds_base.yml
+<span style="color:#75715e"># create environment from yml file</span>
+conda env create -f environment_ds_base.yml
+</code></pre></div><p>Below is a complete list of packages in my environment</p>
+<script type="application/javascript" src="https://gist.github.com/samedwardes/ae9fd4582d5fe213c5e2c43b68a78e12.js"></script>
+
+<h2 id="homebrew">Homebrew</h2>
+<p><a href="https://brew.sh/">Homebrew</a> is an open source package manager for macOS and linux. When ever possible I try and install software using Homebrew as it helps keep everything organized. Some of my favourite software that I download from homebrew include:</p>
+<ul>
+<li><code>tree</code>: Allows you to view directories and files in a tree like structure</li>
+<li><code>gh</code>: The <a href="https://cli.github.com/">GitHub.com CLI</a>. Great for quickly checkout PRs, or creating issues from the command line.</li>
+<li><code>autojump</code>: Allows you to quickly jump between directories in the command line (<a href="https://github.com/wting/autojump">GitHub README</a>).</li>
+<li><code>node</code> and <code>npm</code>: I never use these directly, but lots of other tools seem to rely on them.</li>
+</ul>
+<p><strong>Steps to install Homebrew:</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># download and install homebrew</span>
+/bin/bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#75715e"># install some of my favourite packages</span>
+brew install tree
+brew install github/gh/gh
+brew install autojump
+brew install node
+</code></pre></div><h2 id="terminal-and-zsh">Terminal and ZSH</h2>
+<p>Instead of the default Mac OS terminal app I use <a href="https://www.iterm2.com/">iTerm2</a>. It provides a lot of different options for themes, uses tabs, and allows you to have a split layout on one tab.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>I also use ZSH instead of bash. ZSH is now the default shell in macOS, but if you are operating on an older system it may be bash. Here is a good article from <a href="https://stackabuse.com/zsh-vs-bash/">stackabuse.com</a> comparing the two.</p>
+<p>Lastly I customize ZSH with another tool called <a href="https://ohmyz.sh/">Oh My ZSH</a>. The tool allows you to extend the usefulness of ZSH by adding additional features, plugins, and themes.</p>
+<p><strong>Steps to setup iTerm2, ZSH, and Oh My ZSH</strong></p>
+<ol>
+<li>
+<p>Install iTerm2 from <a href="https://www.iterm2.com/">https://www.iterm2.com/</a></p>
+</li>
+<li>
+<p>I will assume that you are already using ZSH, but if you are not update to the latest version of macOS and ZSH should be the default. Here is a guide from <a href="https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/">How-To-Geek</a> to help switch between shells.</p>
+</li>
+<li>
+<p>Install Oh My ZSH using:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div></li>
+<li>
+<p>Edit the <code>~/.zshrc</code> file to add some customizations. Every time you open a new command line window/tab, or refresh your current command line by calling <code>zsh</code> this file will be run. I add a combination of functions and alias for commonly performed tasks. You can copy and paste the below into your own <code>.zshrc</code> file if you wish, or just add your own.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+<ol start="5">
+<li>I also add the following lines to the file to enable my desired theme and plugins:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">plugins<span style="color:#f92672">=(</span>git autojump<span style="color:#f92672">)</span>
+ZSH_THEME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;blinks&#34;</span>
+</code></pre></div><h2 id="r">R</h2>
+<p>Work in progress&hellip;</p>
+<h2 id="vs-code">VS Code</h2>
+<p>Visual Studio Code, or VS Code for short is one of the most popular editors at the moment. I enjoy listing to the <a href="https://talkpython.fm/">Talk Python to Me</a> podcast and it seems like 99% of guests use VS code now. VS Code is great because it is very light weight, but has a ton of powerful extensions.</p>
+<p><strong>Steps to setup VS Code</strong></p>
+<ol>
+<li>Download from <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+<li>Install extensions. I currently use the following extensions. You can download them by searching for each one in the extensions sidebar.</li>
+</ol>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/data-science/">data-science</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/environment/">environment</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://samedwardes.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://samedwardes.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://samedwardes.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>
