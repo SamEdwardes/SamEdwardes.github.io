@@ -6,11 +6,7 @@
     <description>Recent content in Categories on Real Sam I Am</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://samedwardes.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://samedwardes.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data-science</title>
       <link>https://samedwardes.com/categories/data-science/</link>

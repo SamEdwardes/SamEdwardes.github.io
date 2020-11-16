@@ -6,11 +6,7 @@
     <description>Recent content in command-line on Real Sam I Am</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://samedwardes.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://samedwardes.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Open GitHub.com Repo from the Command Line</title>
       <link>https://samedwardes.com/post/2020-02-08-how-to-open-github-from-cl/</link>
